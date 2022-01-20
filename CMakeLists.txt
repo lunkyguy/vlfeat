@@ -13,7 +13,6 @@ set(CMAKE_TOOLCHAIN_FILE "/home/gtac/Public/repos/vcpkg-2021.05.12/scripts/build
 endif()
 
 find_package(vlfeat CONFIG REQUIRED)
-find_package(GDAL REQUIRED)
 find_package(OpenCV CONFIG REQUIRED)
 
 add_subdirectory(app)
